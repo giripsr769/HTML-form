@@ -1,0 +1,195 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Form Page</title>
+    <link rel="stylesheet" href="formCss.css">
+    <script src="formJS.js"></script>
+    <base href="D:/HTML/Task-5">
+</head>
+
+<body>
+    <header>
+        <h1>Sign Up Form-19/A</h1>
+    </header>
+    <div id="Signup">
+        <form>
+            <table>
+                <tr>
+                    <td>
+                        <label>FirstName</label>
+                    </td>
+                    <td>
+                        <input type="text" id="FirstName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>LastName</label>
+                    </td>
+                    <td>
+                        <input type="text" id="LastName">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>DoB</label>
+                    </td>
+                    <td>
+                        <input type="date" id="DoB">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Gender</label>
+                    </td>
+                    <td>
+                        <input id="Male" type="radio" name="Gender" value="Male">Male
+                        <br/>
+                        <input id="Female" type="radio" name="Gender" value="Female">Female</td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Mobile</label>
+                    </td>
+                    <td>
+                        <input type="tel" id="Mobile">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Email</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="password" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Confrim Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="ConfrimPassword" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Address</label>
+                    </td>
+                    <td>
+                        <textarea type="text" row=1 cols="21" id="Address"></textarea> </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Pincode</label>
+                    </td>
+                    <td>
+                        <input type="number" id="Pincode">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Language Known</label>
+                    </td>
+                    <td>
+                        <input type="checkbox" id="tam" value="Tamil">Tamil
+                        <br/>
+                        <input type="checkbox" id="eng" value="English">English
+                        <br/>
+                        <input type="checkbox" id="fre" value="French">French
+                        <br/>
+                        <input type="checkbox" id="hin" value="Hindi">Hindi</td>
+                </tr>
+            </table>
+
+            <span id="sub">
+                <input type="submit" name="submit" onclick="submitClick()" onclick="gend()">
+            </span>
+            <span id="sub">
+                <input type="reset" name="reset">
+            </span>
+        </form>
+    </div>
+    <div id="display">
+        <table>
+            <tr>
+                <td>
+                    <label>FirstName</label>
+                </td>
+                <td>
+                    <label id="fstNme"></label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>DoB</label>
+                </td>
+                <td>
+                    <label id="birth"></label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Gender</label>
+                </td>
+                <td>
+                    <label id="ml"></label>
+            </tr>
+            <tr>
+                <td>
+                    <label>Mobile</label>
+                </td>
+                <td>
+                    <label id="mbl"></label>
+
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Email</label>
+                </td>
+                <td>
+                    <label id="emil"></label>
+
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label>Address</label>
+                </td>
+                <td>
+                    <p id="add"></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>Language Known</label>
+                </td>
+                <td>
+                    <label id="langT"></label>
+                    <label id="langE"></label>
+                    <label id="langF"></label>
+                    <label id="langH"></label>
+            </tr>
+        </table>
+    </div>
+
+    <!-- <div>
+        <input type="radio" id="zmale" name="zGender" value="Male">
+        <input type="radio" id="zfemale" name="zGender" value="Female">
+        <input type="submit" value="gender check" onclick="gend()">
+        <p id="mygen"></p>
+    </div> -->
+</body>
+
+</html>

@@ -1,0 +1,55 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(61, 102, 102);
+}
+#Signup {
+    border: 1px solid whitesmoke;
+    margin-left: 140px;
+    margin-right: 0px;
+    padding: 10px;
+    background-color: darkkhaki;
+    font-size: 18px;
+    color: rgb(5, 58, 58);
+    width: 40%;
+    height: auto;
+    display: inline-block;
+}
+
+header h1{
+    color: rgb(250, 247, 52);
+    font-family: 'Times New Roman', Times, serif;  
+    text-align: center;
+}
+table{
+    margin-left: 25px;
+}
+table tr td{
+    width: 54%;
+    padding: 7px 0 0px 0;
+    text-align: left;
+    /* border: 1px solid rgb(247, 184, 223); */
+}
+#sub{
+    padding-left: 88px;
+    margin-bottom: 20px;
+}
+#sub :hover{
+    color: blue;
+}
+#display {
+    display: none;
+    /* display: inline-block; */
+    width: 35%;
+    height: 488px;
+    vertical-align: top;
+    border: 1px solid whitesmoke;
+    background-color: darkkhaki;
+}
+#display tr td {
+   padding: 10px 5px 10px 5px;
+   font-size: 18px;
+   color: rgb(5, 58, 58);
+    border: 1px solid rgb(247, 184, 223);
+    border-collapse: collapse;
+}
